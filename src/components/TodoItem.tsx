@@ -1,5 +1,4 @@
-import React from 'react';
-import { TodoItemType } from './types.js'; // Import the type
+import { TodoItemType } from './types.ts'; // Import the type
 
 type TodoItemProps = {
     todo: TodoItemType;
@@ -9,7 +8,7 @@ type TodoItemProps = {
 
 export function TodoItem({ todo, onToggleDone, onDeleteTodo }: TodoItemProps) {
     return (
-        <div className={`w-full m-5 rounded-box p-3 flex ${todo.done ? 'bg-indigo-900' : 'bg-indigo-700'}`}>
+        <div className={`w-full m-5 rounded-box p-3 flex ${todo.done ? 'bg-teal-600' : 'bg-yellow-300'}`}>
             <span className="pr-8">
                 <input
                     type="checkbox"

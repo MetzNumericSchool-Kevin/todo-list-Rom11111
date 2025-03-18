@@ -1,6 +1,6 @@
 // TodoApp.tsx
-import React, { useState } from 'react';
-import { SearchBar } from './SearchBar';
+import { useState } from 'react';
+import { SearchBar } from './Searchbar';
 import { TodoItem } from './TodoItem';
 import { TodoItemType } from './types'; // Import the type
 
